@@ -1,7 +1,75 @@
-div.jumbotron {
-  margin-bottom: 0px;
+.header-fab{
+  margin-bottom: -20px;
 }
 
-nav {
-  margin-bottom: 40px;
+#jumbotron{
+  margin-bottom: -30px;
+}
+
+#row-1{
+
+}
+
+#row-2{
+
+}
+
+#row-3{
+
+}
+
+#row-4{
+
+}
+
+/* SPACE */
+.void{
+  color: #0E0B16;
+  }
+
+.fuschia{
+  color: #A239CA;
+}
+
+.jewel{
+  color: #4717F6;
+}
+
+.stark{
+  background-color: #E7DFDD;
+}
+
+/* LUSH */
+.black{
+  color: #000000;
+}
+
+.ink{
+  background-color: #062F4F;
+  color: white;
+}
+
+.posy{
+  color: #813772;
+}
+
+.embers{
+  color: #B82601;
+}
+
+/* AKARU */
+.navy-blue{
+  background-color: #18121E;
+}
+
+.gunmetal{
+  background-color: #233237;
+}
+
+.rusty-red{
+  background-color: #984B43;
+}
+
+.warm-yellow{
+  color: #EAC67A;
 }
