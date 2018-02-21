@@ -6,6 +6,11 @@
   margin-bottom: -30px;
 }
 
+#steam-data::before{
+  background-image: url("Selection_010.png");
+  opacity: 0.6;
+}
+
 #row-1{
 
 }
