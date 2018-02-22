@@ -10,6 +10,9 @@
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
+  <!-- jQuery minified -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
@@ -23,7 +26,6 @@
 </head>
 
 <body class="stark">
-
   <div class="navbar-fixed">
     <nav class="rusty-red">
       <div class="container">
@@ -33,10 +35,7 @@
               <a href="#about">About</a>
             </li>
             <li>
-              <a href="#skills">Skills</a>
-            </li>
-            <li>
-              <a href="#experience">Experience</a>
+              <a href="#projects">Projects</a>
             </li>
             <li>
               <a href="#education">Education</a>
@@ -56,37 +55,42 @@
   </div>
   <div class="row" id="jumbotron">
     <div class="container">
-      <div class="col s6">
+      <div class="col s12">
         <h1>Michael Swanson</h1>
       </div>
-      <div class="col s6">
 
-      </div>
     </div>
   </div>
 
   <div class="row" id="row-1">
     <div class="container">
       <div class="section">
-        <div class="col s9" id="about">
+        <div class="col s12 m6" id="about">
           <h4>About</h4>
-          <p id="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non urna lacus. Duis erat purus, sodales sit amet malesuada in, volutpat quis neque. Sed pretium finibus sapien vel imperdiet. raesent quis urna porttitor, scelerisque est ac, suscipit
-            mauris. Aliquam sed pulvinar orci. Aenean pellentesque a sem id rutrum. Donec viverra auctor justo, a condimentum purus auctor eu. </p>
+          <p id="about-text">I am a ____ that enjoys deconstructing and solving problems. Since my focus is on the process, not the method, I have experience in many fields, such as Python development, web development, data analysis, process improvement and documentation.</p>
+          <p>I have applied my skills in various industries, including hospitality, web hosting, and technology companies such as Uber.</p>
         </div>
-        <div class="col s3" id="skills">
-          <h4>Skills</h4>
-          <blockquote>
-            <ul>
-              <li>Linux</li>
-              <li>Python</li>
-              <li>SQL</li>
-              <li>Javascript</li>
-              <li>Excel</li>
-              <li>Data Visualization</li>
-              <li>Process Improvement</li>
-              <li>Technical Writing</li>
-            </ul>
-          </blockquote>
+      </div>
+      <div class="col s12 m6" id="experience">
+        <h4>Skills</h4>
+        <div class="item">
+          <span class="faux5">back end </span><span class="title">python, php, mySQL</span>
+        </div>
+        <div class="item">
+          <span class="faux5">front end </span><span class="title">html, css, js, jquery, bootstrap</span>
+        </h5>
+        </div>
+        <div class="item">
+          <span class="faux5">project coordination </span><span class="title">redmine, jira, kanban</span>
+        </h5>
+        </div>
+        <div class="item">
+          <span class="faux5">data </span><span class="title">sql, excel, pandas, matplotlib</span>
+        </h5>
+        </div>
+        <div class="item">
+          <span class="faux5">collaboration </span><span class="title">confluence, slack, hipchat</span>
+        </h5>
         </div>
       </div>
     </div>
@@ -99,7 +103,7 @@
       <div class="section" id="projects">
         <h4>Projects</h4>
         <div class="row">
-          <div class="col s6">
+          <div class="col s12 m6">
             <div class="card" id="steam-data">
               <div class="card-image">
                 <img src="Selection_010.png">
@@ -114,33 +118,21 @@
             </div>
           </div>
 
-          <div class="col s6">
-            <div class="card">
-              <div class="card-content">
+          <div class="col s12 m6">
+            <div class="card" id="steam-data">
+              <div class="card-image">
+                <img src="Selection_010.png">
                 <span class="card-title">Financial Data</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non urna lacus. Duis erat purus, sodales sit amet malesuada in, volutpat quis neque. Sed pretium finibus sapien vel imperdiet. raesent quis urna porttitor, scelerisque est
-                  ac, suscipit mauris. Aliquam sed pulvinar orci. Aenean pellentesque a sem id rutrum. Donec viverra auctor justo, a condimentum purus auctor eu. </p>
+              </div>
+              <div class="card-content">
+                <p>An exercise in retrieving, parsing, and displaying JSON data with Python.</p>
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/mswanson-me/financial-data-viz">GitHub repo</a>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="divider"></div>
-
-  <div class="row" id="row-3">
-    <div class="container">
-      <div id="experience">
-        <h4>Experience</h4>
-        <div class="expitem">
-          <h6>Web Hosting</h6>
-          <p>Describe web hosting experience, etc.</p>
-        </div>
-        <div class="expitem">
-          <h6>Analysis</h6>
-          <p>Describe analysis experience, etc.</p>
         </div>
       </div>
     </div>
@@ -152,15 +144,16 @@
     <div class="container">
       <div id="education">
         <h4>Education</h4>
-        <!-- div for each subsection -->
-        <div class="edusub">
-          <h5>Western Governors University</h5>
-          <p>Describe academic experience, degree, etc.</p>
+        <div class="item">
+          <span class="faux5">Western Governors University</span>
+            <span class="title">Bachelor of Science, Business Management</span>
+            <span class="faux5">2017</span>
         </div>
 
-        <div class="edusub">
-          <h5>Project+</h5>
-          <p>Describe academic experience, certification, etc.</p>
+        <div class="item">
+          <span class="faux5">CompTIA</span>
+            <span class="title">Project+</span>
+            <span class="faux5">2017</span>
         </div>
       </div>
     </div>

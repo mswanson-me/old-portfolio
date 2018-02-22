@@ -1,70 +1,28 @@
-.header-fab{
-  margin-bottom: -20px;
+p{
+  font-size:18px;
+  font-weight: 300;
 }
 
-#jumbotron{
-  margin-bottom: -30px;
+.title{
+  font-size: 24px;
+  font-weight: lighter;
 }
 
-#steam-data::before{
-  background-image: url("Selection_010.png");
-  opacity: 0.6;
-}
-
-#row-1{
-
-}
-
-#row-2{
-
-}
-
-#row-3{
-
-}
-
-#row-4{
-
-}
-
-/* SPACE */
-.void{
-  color: #0E0B16;
-  }
-
-.fuschia{
-  color: #A239CA;
-}
-
-.jewel{
-  color: #4717F6;
+.faux5{
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .stark{
   background-color: #E7DFDD;
 }
 
-/* LUSH */
-.black{
-  color: #000000;
-}
-
 .ink{
   background-color: #062F4F;
-  color: white;
-}
-
-.posy{
-  color: #813772;
 }
 
 .embers{
   color: #B82601;
-}
-
-/* AKARU */
-.navy-blue{
-  background-color: #18121E;
 }
 
 .gunmetal{
