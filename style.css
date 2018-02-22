@@ -3,11 +3,13 @@
 }
 
 .title{
-  font-weight: lighter;
+  font-size: 24px;
+  font-weight: 100;
 }
 
-.year{
-
+.faux5{
+  font-size: 24px;
+  font-weight: 400;
 }
 
 #jumbotron{
