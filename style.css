@@ -12,6 +12,10 @@ a, button {
 }
 /* end resets */
 
+h1 {
+  font-size: 64px;
+}
+
 button {
   border: 1px solid #233237;
   padding: 10px;
