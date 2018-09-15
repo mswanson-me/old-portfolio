@@ -1,16 +1,56 @@
+/* resets */
+.card {
+  background: inherit;
+  border: none;
+  box-shadow: none;
+}
+
+a, button {
+  border: none;
+  background: inherit;
+  padding: 0;
+}
+/* end resets */
+
+button {
+  border: 1px solid #233237;
+  padding: 10px;
+  background: #233237;
+  color: #EAC67A;
+}
+
+button:hover, button:focus {
+  transform: translate(-3px, -3px);
+  box-shadow: 3px 3px #EAC67A;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
 p{
   font-size:18px;
   font-weight: 300;
 }
 
-.title{
-  font-size: 24px;
-  font-weight: lighter;
+.card p {
+  font-size: 16px;
 }
 
-.faux5{
-  font-size: 24px;
-  font-weight: 400;
+.title{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: 500;
+  display: inline;
+}
+
+.item {
+  margin-bottom: 10px;
 }
 
 .stark{
