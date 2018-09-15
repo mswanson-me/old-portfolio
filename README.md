@@ -1,6 +1,9 @@
 # mswanson-me.github.io
-Portfolio website project
 
-[Portfolio site](https://mswanson-me.github.io)
+Every developer needs a portfolio, right?
 
-[LinkedIn](https://www.linkedin.com/in/michaeldswanson/)
+You can find mine at [https://mswanson.me] or [https://mswanson-me.github.io]
+
+## Development Goals
+
+See: [Issues](https://github.com/mswanson-me/mswanson-me.github.io/issues)
