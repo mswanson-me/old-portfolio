@@ -16,6 +16,10 @@ h1 {
   font-size: 64px;
 }
 
+h2 {
+  box-shadow: 5px 5px #984B43;
+}
+
 button {
   border: 1px solid #233237;
   padding: 10px;
@@ -61,7 +65,6 @@ h3{
   font-size: 20px;
   font-weight: 500;
   display: inline;
-  box-shadow: 5px 5px #984B43;
 }
 
 .item {
