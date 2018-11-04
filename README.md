@@ -2,7 +2,7 @@
 
 Every developer needs a portfolio, right?
 
-You can find mine at [https://mswanson.me] or [https://mswanson-me.github.io]
+You can find mine at [https://mswanson-me.github.io]
 
 ## Development Goals
 
