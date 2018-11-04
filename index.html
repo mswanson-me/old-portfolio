@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> -->
 
   <!-- jQuery minified -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -21,6 +21,7 @@
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
   <!-- Custom CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="grid.css">
 
@@ -41,48 +42,50 @@
   </nav>
 
   <header role="banner" class="row">
-    <h1 class="col-6">Michael Swanson</h1>
+    <div class="col-6">
+      <h1>Michael Swanson</h1>
+      <h2>Full Stack Developer</h2>
+    </div>
   </header>
 
   <main role="main" class="row">
-    <section role="region" class="col-6" id="about">
-      <h2>About</h2>
+    <section role="region" class="col-12" id="about">
+      <h3>About</h3>
       <p id="about-text">I am a full stack web developer with a background in the web hosting industry. After picking
         up on PHP and Ruby on Rails in my technical support roles, I continued growing my knowledge of web
         development languages, including JavaScript/jQuery, HTML, CSS, and Python. I feel right at home working in diverse,
         distributed teams and I am passionate about constant growth and collaboration.</p>
     </section>
 
-    <section role="region" class="col-6" id="skills">
-      <h2>Skills</h2>
-      <p class="item">
-        <h3>back end </h3><span class="title">python, php, node.js, mySQL</span>
-      </p>
-      <p class="item">
-        <h3>front end </h3><span class="title">html, css, javascript, jquery, bootstrap</span>
-      </p>
-      <p class="item">
-        <h3>project coordination </h3><span class="title">redmine, jira, kanban</span>
-      </p>
-      <p class="item">
-        <h3>collaboration </h3><span class="title">confluence, slack, hipchat, remote work</span>
-      </p>
+    <section role="region" class="col-12" id="skills">
+      <h3>Skills</h3>
+      <div class="col-6">
+        <h4>front end </h4><span class="title">html, css, javascript, jquery, bootstrap</span>
+        <br>
+        <h4>tests & tools </h4><span class="title">mocha, chai, travis ci</span>
+      </div>
+      
+      <div class="col-6">
+        <h4>back end </h4><span class="title">node.js, python, mongoDB, mySQL</span>
+        <br>
+        <h4>additional skills </h4><span class="title">linux, git, ruby on rails, java, php, remote work</span>
+      </div>
     </section>
 
     <section role="region" class="col-12" id="projects">
-      <h2>Projects</h2>
+      <h3>Projects</h3>
       <div class="card" id="stay-focused">
         <a href="https://github.com/mswanson-me/stay-focused"><img src="to-do-list.png" alt="To do list app thumbnail image"></a>
-        <h3 class="card-title">Stay Focused</h3>
+        <h4 class="card-title">To Do List App</h4>
         <p>This is a small project born out of my need to be more organized.</p>
         <a href="https://github.com/mswanson-me/stay-focused"><button type="button">GitHub repo</button></a>
-        <a href="https://stay-focused.mswanson.me"><button type="button">Live Demo</button></a>
+        <a href="https://to-do.mswanson.me"><button type="button">Live Demo</button></a>
       </div>
 
 
       <div class="card" id="news-aggregator">
         <a href="https://github.com/mswanson-me/news-aggregator"><img src="news-aggregator.png" alt="News aggregator thumbnail image"></a>
-        <h3 class="card-title">News Aggregator App</h3>
+        <h4 class="card-title">News Aggregator App</h4>
         <p>This news aggregator is simple: you provide a topic and the site returns the most relevant results from just about any source you can imagine!</p>
         <a href="https://github.com/mswanson-me/news-aggregator"><button type="button">GitHub repo</button></a>
         <a href="https://news.mswanson.me"><button type="button">Live Demo</button></a>
@@ -90,24 +93,24 @@
 
       <div class="card" id="youtube-app">
         <a href="https://github.com/mswanson-me/youtube-app"><img src="youtube-app.png" alt="Youtube App thumbnail image"></a>
-        <h3 class="card-title">YouTube API Search App</h3>
+        <h4 class="card-title">YouTube API Search App</h4>
         <p>An exercise in retrieving, parsing, and displaying JSON data with AJAX.</p>
         <a href="https://github.com/mswanson-me/youtube-app"><button type="button">GitHub repo</button></a>
       </div> 
     </section>
 
     <section role="region" class="col-12" id="education">
-      <h2>Education</h2>
+      <h3>Education</h3>
       <div class="item">
-        <h3>Thinkful <span class="title">Full Stack Web Development</span></h3>
+        <h4>Thinkful <span class="title">Full Stack Web Development</span></h4>
       </div>
       
       <div class="item">
-        <h3>Western Governors University <span class="title">Bachelor of Science, Business Management</span></h3>
+        <h4>Western Governors University <span class="title">Bachelor of Science, Business Management</span></h4>
       </div>
 
       <div class="item">
-        <h3>CompTIA <span class="title">Project+</span></h3>
+        <h4>CompTIA <span class="title">Project+</span></h4>
       </div>
     </section>
   </main>
